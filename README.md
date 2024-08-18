@@ -3,6 +3,7 @@ I created this because I had to parse many windows logs files and I didn't want 
 # How to parse many files
 - Ensure python-evtx is installed
   - https://github.com/williballenthin/python-evtx
+  - In Kali you can just use `sudo apt install python-evtx`
 - Run `ParseAllEVTX.py` in the directory that has all of your evtx files
 - This will create a directory called `parsed` and will output each .evtx file here as an `.xml` file
 
